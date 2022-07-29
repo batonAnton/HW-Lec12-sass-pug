@@ -1,0 +1,28 @@
+$primary: #091133;
+* {
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 1160px;
+  background-image: url(../image/header/header-bg.png);
+  background-position: 100% -20%;
+  background-repeat: no-repeat;
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+      display: inline-flex;
+      li {
+        margin-right: 60px;
+      }
+    }
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+}
